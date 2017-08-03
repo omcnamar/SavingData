@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.olegsagenadatrytwo.savingdata.MainActivity">
+
+    <EditText
+        android:id="@+id/etTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToAnotherActivity"
+        android:text="change"/>
+
+    <TextView
+        android:id="@+id/tvTest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="default"/>
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="name"/>
+
+    <EditText
+        android:id="@+id/etGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Gender"/>
+
+    <Button
+        android:id="@+id/btSubmitPerson"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="goToAnotherActivity"
+        android:text="submit"/>
+
+    <Button
+        android:id="@+id/btnShareData"
+        android:onClick="goToAnotherActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="share data"/>
+
+
+
+</LinearLayout>
